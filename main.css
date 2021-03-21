@@ -1,0 +1,12 @@
+header{
+	background: url('images/header-bg-img.png') no-repeat center top / cover;
+}
+
+body {
+  font-family: 'Muli',sans-serif;
+  font-family: 'Muli';
+  src: url("../fonts/peterburg/Muli-Bold.ttf") format("ttf");
+  src: url("../fonts/peterburg/Muli-BoldItalic.ttf") format("ttf"),   url("../fonts/peterburg/Petersburg_Cyrillic.ttf") format("ttf"),   url("../fonts/peterburg/peterburg.ttf") format("ttf"),   url("../fonts/peterburg/Petersburg_Bold_Cyrillic.ttf") format("ttf");
+  font-style: normal;
+  font-display: swap;
+  }
