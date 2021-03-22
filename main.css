@@ -3,10 +3,63 @@ header{
 }
 
 body {
-  font-family: 'Muli',sans-serif;
-  font-family: 'Muli';
-  src: url("../fonts/peterburg/Muli-Bold.ttf") format("ttf");
-  src: url("../fonts/peterburg/Muli-BoldItalic.ttf") format("ttf"),   url("../fonts/peterburg/Petersburg_Cyrillic.ttf") format("ttf"),   url("../fonts/peterburg/peterburg.ttf") format("ttf"),   url("../fonts/peterburg/Petersburg_Bold_Cyrillic.ttf") format("ttf");
-  font-style: normal;
-  font-display: swap;
-  }
+    font-family: 'Muli';
+    src: url('fonts/Muli-Regular.woff') format('woff');
+    src: url('fonts/Muli-BoldItalic.ttf') format('ttf'), 
+    url('fonts/Muli-ExtraBold.woff') format('woff'),
+    url('fonts/Muli-Bold.ttf') format('ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+ul.nav_menu-list li a {
+    font-size: 19px !important;
+    font-weight: 400;
+    color: #fff !important;
+    text-decoration: none;
+    margin-right: 30px;
+    /* list-style: none; */
+}
+
+ul.nav_menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 460px;
+    align-items: center;
+    width: 100%;
+}
+
+.header-top {
+    display: flex;
+    max-width: 1720px !important;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.lists_icon {
+    display: flex;
+    justify-content: space-between;
+    max-width: 450px;
+    align-items: center;
+    width: 100%;
+}
+
+.personal ul {
+    display: flex !important;
+    list-style: none;
+}
+
+.personal ul li {
+    margin-right: 35px;
+}
+
+.social ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    max-width: 140px;
+    list-style: none;
+    width: 100%;
+}
