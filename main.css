@@ -1,5 +1,6 @@
 header{
 	background: url('images/header-bg-img.png') no-repeat center top / cover;
+	height: 100vh;
 }
 
 body {
@@ -66,4 +67,44 @@ ul.nav_menu-list {
 
 .header-content button {
     background-color: rgb(10, 165, 102);
+}
+
+section.smoothies h2 {
+    color: #f7ae3b;
+    font-size: 50px;
+    text-align: center;
+}
+
+section.smoothies p {color: #1e1e1e;font-size: 18px;font-weight: 600;line-height: 35px;text-align: center;}
+
+section.smoothies {
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.different_smoothies span {
+    font-size: 25px;
+    color: #f2612d;
+    font-weight: 600;
+    line-height: 45px;
+    display: block;
+    text-align: center;
+}
+
+.different_smoothies {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.different_smoothies div {
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.different_smoothies div img {
+    margin: 0 auto;
+    display: block;
 }
