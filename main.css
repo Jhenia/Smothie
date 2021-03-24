@@ -63,3 +63,7 @@ ul.nav_menu-list {
     list-style: none;
     width: 100%;
 }
+
+.header-content button {
+    background-color: rgb(10, 165, 102);
+}
