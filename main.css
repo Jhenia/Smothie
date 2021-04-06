@@ -4,8 +4,7 @@ header{
 }
 
 body {
-    font-family: 'Muli';
-    src: url('fonts/Muli-Regular.woff') format('woff');
+    font-family: auto;
     src: url('fonts/Muli-BoldItalic.ttf') format('ttf'), 
     url('fonts/Muli-ExtraBold.woff') format('woff'),
     url('fonts/Muli-Bold.ttf') format('ttf');
@@ -140,6 +139,7 @@ section.about {
     position: relative;
     max-width: 1400px;
     width: 100%;
+    padding-bottom: 100px;
     align-items: flex-start;
 }
 
@@ -148,6 +148,7 @@ img.about_bg {
     right: 49%;
     position: absolute;
     margin-left: 50px;
+    z-index: 3;
 }
 
 .about__title {
@@ -224,4 +225,64 @@ ul.list_smoothies_about li img {
 
 .bg_for_about {
     background: #11806d;
+}
+
+.product__holder1 {
+    background: url('images/Holder1.png') no-repeat center top / cover;
+}
+.product__holder2 {
+    background: url('images/Holder2.png') no-repeat center top / cover;
+}
+.product__holder3 {
+    background: url('images/Holder3.png') no-repeat center top;
+}
+.product__holder4 {
+    background: url('images/Holder4.png') no-repeat center top / cover;
+}
+.product__holder4,.product__holder3,.product__holder2,.product__holder1{
+    position: relative;
+}
+section.product {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,720px);
+    height: 720px;
+}
+
+.product__holder-item {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    position: absolute;
+    grid-auto-rows: auto;
+    top: 15%;
+    left: 20%;
+}
+
+.product__holder-item p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+
+.product__holder-item a {
+    display: inline-block;
+    width: 158px;
+    text-decoration: none;
+    margin-top: 65px;
+    color: #fff !important;
+    display: flex;
+    font-weight: 600;
+    font-size: 21px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    justify-content: space-around;
+    padding: 19px;
+}
+
+.product__holder-item p span {
+    font-size: 18px;
+    font-weight: 100;
 }
