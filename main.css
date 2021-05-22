@@ -375,3 +375,7 @@ section.story {
     display: flex;
     justify-content: center;
 }
+section#blog{
+	display: inline-block;
+	position: relative;
+}
